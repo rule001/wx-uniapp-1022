@@ -1,0 +1,1 @@
+const baseUrl = process.env.NODE_ENV === 'development' ? "http://localhost:8081/v1/api" : "https://www.gzamon.wang"
