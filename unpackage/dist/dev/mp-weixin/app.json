@@ -1,8 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/account/account",
-    "pages/subpages/acount/acount"
+    "pages/service/service",
+    "pages/about/about"
   ],
   "subPackages": [],
   "window": {
@@ -11,6 +11,33 @@
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap.json"
+  "tabBar": {
+    "color": "#CCCCCC",
+    "selectedColor": "#27C5FA",
+    "height": "50px",
+    "fontSize": "10px",
+    "iconWidth": "24px",
+    "spacing": "3px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/tab/tab1.png",
+        "selectedIconPath": "static/image/tab/tab11.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/service/service",
+        "iconPath": "static/image/tab/tab2.png",
+        "selectedIconPath": "static/image/tab/tab22.png",
+        "text": "服务"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "iconPath": "static/image/tab/tab3.png",
+        "selectedIconPath": "static/image/tab/tab33.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
 }
