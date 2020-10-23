@@ -27,8 +27,19 @@
 /*每个页面公共css */
 page {
   background-color: #ccc;
+  width: 750rpx;
 }
 view {
   box-sizing: border-box;
+}
+.flex-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.flex-box .flex-item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
 }
 

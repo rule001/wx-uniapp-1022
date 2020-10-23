@@ -1,6 +1,13 @@
 page{
 	background-color:#ccc;
+	width: 750rpx;
 }
 view{
 	box-sizing:border-box
+}
+.flex-box{
+	display: flex;
+	.flex-item{
+		flex:1
+	}
 }
