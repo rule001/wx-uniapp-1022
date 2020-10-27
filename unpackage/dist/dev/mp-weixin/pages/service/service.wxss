@@ -24,86 +24,62 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.swiper.data-v-487426d0 {
+.swiper.data-v-3c21de56 {
   padding: 20rpx;
 }
-.swiper .img.data-v-487426d0 {
+.swiper .img.data-v-3c21de56 {
   width: 100%;
   height: 300rpx;
 }
-.service.data-v-487426d0 {
+.service.data-v-3c21de56 {
   padding: 20rpx;
 }
-.service .title.data-v-487426d0 {
+.service .title.data-v-3c21de56 {
   font-size: 36rpx;
   font-weight: bold;
 }
-.service .list.data-v-487426d0 {
+.service .list.data-v-3c21de56 {
+  padding: 20rpx 0;
+}
+.service .list .left.data-v-3c21de56 {
+  float: left;
+  height: 160rpx;
+  width: 160rpx;
+  margin: 0 20rpx 0 0;
+  display: inline-block;
+}
+.service .list .right.data-v-3c21de56 {
+  padding: 20rpx;
+}
+.service .list .right .top.data-v-3c21de56 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
           justify-content: space-between;
-  padding: 20rpx 0;
-}
-.service .list .list-item.data-v-487426d0 {
-  width: 208rpx;
-  height: 96rpx;
-  padding: 0 0 0 16rpx;
-}
-.service .list .list-item .tt.data-v-487426d0 {
-  color: #fff;
-  font-size: 32rpx;
-  line-height: 96rpx;
-  font-weight: bold;
-}
-.line.data-v-487426d0 {
-  background-color: #F6F6F6;
-  height: 20rpx;
-}
-.business.data-v-487426d0 {
-  padding: 20rpx;
-}
-.business .title-box.data-v-487426d0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-          justify-content: space-between;
-  padding: 20rpx 0;
-}
-.business .title-box .left.data-v-487426d0 {
-  font-size: 36rpx;
-  font-weight: bold;
-}
-.business .title-box .right.data-v-487426d0 {
-  font-size: 28rpx;
-  color: #999999;
-}
-.business .content.data-v-487426d0 {
   margin: 0 0 20rpx 0;
 }
-.business .content .img.data-v-487426d0 {
-  height: 200rpx;
-  width: 300rpx;
-  float: left;
-  margin: 0 20rpx 0 0;
-}
-.business .content .text-box.data-v-487426d0 {
-  padding: 20rpx 0 20rpx 20rpx;
-}
-.business .content .text-box .t1.data-v-487426d0 {
+.service .list .right .top .t1.data-v-3c21de56 {
   font-size: 32rpx;
   font-weight: bold;
-  display: block;
-  line-height: 44rpx;
 }
-.business .content .text-box .t2.data-v-487426d0 {
-  font-size: 28rpx;
-  margin: 40rpx 0 0 0;
-  display: block;
-  color: #999999;
+.service .list .right .top .t2.data-v-3c21de56 {
+  color: #909090;
+  font-size: 24rpx;
+}
+.service .list .right .bottom .p.data-v-3c21de56 {
+  border-radius: 8rpx;
+  font-size: 24rpx;
+  padding: 6rpx;
+  margin: 0 20rpx 0 0;
+}
+.service .list .right .bottom .c1.data-v-3c21de56 {
+  border: 2rpx solid #27C5FA;
+  color: #27C5FA;
+}
+.service .list .right .bottom .c2.data-v-3c21de56 {
+  border: 2rpx solid #EF6552;
+  color: #EF6552;
 }
 
